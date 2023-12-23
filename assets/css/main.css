@@ -13,7 +13,7 @@ body{
 }
 
 :root {
-    --aside-bg-color: hsl(45.12deg 100% 50.98%);
+    --aside-bg-color: hsl(45, 93%, 58%);
     --main-bg-color: #fbfbfb;
     --dark-bg:#043578;
     --dark-main-bg:#03132b;

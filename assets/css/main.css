@@ -26,6 +26,9 @@ body{
 div {
     display: block;
 }
+span{
+    font-size: 14px;
+}
 
 /* font config */
 
@@ -49,6 +52,9 @@ div {
     background-color: var(--aside-bg-color);
     float: right;
     box-sizing: border-box;
+    border-radius: 155px 155px 0px 0px;
+    margin-top: 21px;
+    padding-top: 29px;
 }
 
 .section {
@@ -196,6 +202,7 @@ div {
     padding: 0;
     line-height: 30px;
     font-size: 16px;
+    border-radius: 5px;
 }
 .section__title label {
     border-bottom: initial;
@@ -356,8 +363,8 @@ li {
 /* main config */
 
 .main {
-    padding-top: 4em;
-    background-color: #fbfbfb;
+    padding-top: 8em;
+    background-color: white;
     float: right;
     padding-right: 40px!important;
     box-sizing: border-box;
@@ -380,11 +387,13 @@ li {
     height: 35px;
     text-align: right;
     float: left;
-    background-color: #043578;
+    /* background-color: #043578; */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(9 60 137));
     padding-top: 0;
     position: relative;
     margin-bottom: 5px;
     margin-top: 20px;
+    border-radius: 17px;
 }
 
 .main .section .section__title span:first-child {

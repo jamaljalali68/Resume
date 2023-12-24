@@ -1,265 +1,369 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl" lang="fa">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Resume</title>
-</head>
+  </head>
 
-<body>
-    <div class="container resume__container ">
-        <div class="row " style="height: 100vh;">
-            <div class="col-12 col-md-3 aside ">
-                <div class="section" data-section="personal-info ">
-                    <div class="personal__image"
-                        style="background-image:url('https://cvresume.ir/uploads/example-avatars/28/medium-avatar-2020287491.jpg')">
-                    </div>
-                    <div class="personal">
-                        <div class="personal__name">یاسر ابراهیمی</div>
-                        <div class="personal__name">Yaser Ebrahimi</div>
-                        <div class="personal__position">مهندس نرم افزار</div>
-                    </div>
-                    <div class="personal__other">
-                        <div class="personal__birth"><span>تاریخ تولد: 1368</span></div>
-                        <div class="personal__marital"><span>وضعیت تأهل: مجرد</span></div>
-                        <div class="personal__marital"><span>شماره ملی : 2550001222</span></div>
-                        <div class="personal__marital"><span>جنسیت : مرد</span></div>
-                        <div class="personal__marital"><span>وضعیت نظام وضیفه : پایان خدمت</span></div>
-                        <div class="personal__marital"><span> نحوه آشنایی : دوستان </span></div>
-                    </div>
-                    <div class="personal__contact">
-                        <div class="personal__contact-item personal__contact-email"><span><i
-                                    class="fa fa-envelope"></i></span><span>ایمیل:
-                            </span><span>yaser.ebrahimi@cvresume.ir</span></div>
-                        <div class="personal__contact-item personal__contact-mobile"><span><i
-                                    class="fa fa-mobile-alt"></i></span><span>شماره تماس: </span><span
-                                dir="ltr">09401234567</span></div>
-                    </div>
-                </div>
-                <div class="section " data-section="languages" id="languages">
-                    <div class="section__title"><span><i class="fa-solid fa-language"></i></span><label>زبان</label>
-                    </div>
-                    <div class="section__body">
-                        <ul class="section__list">
-                            <li cid="194fa79c-7d94-d238-0be1-e04987bf0910" class="section__item ">
-                                <div class="section__item-language-title">انگلیسی</div>
-                                <div class="section__item-language-level">★★★☆☆</div>
-                                <!-- <div class="section__item-language-rate">60%</div> -->
-                                <!-- <div class="section__item-language-bar">
+  <body>
+    <div class="container resume__container">
+      <div class="row" style="height: 100vh; background: white">
+        <div class="col-12 col-md-3 aside">
+          <div class="section" data-section="personal-info " style="z-index: 2">
+            <div
+              class="personal__image"
+              style="
+                background-image: url('https://cvresume.ir/uploads/example-avatars/28/medium-avatar-2020287491.jpg');
+              "
+            ></div>
+            <div class="personal">
+              <div class="personal__name">یاسر ابراهیمی</div>
+              <div class="personal__name">Yaser Ebrahimi</div>
+              <div class="personal__position">مهندس نرم افزار</div>
+            </div>
+            <div class="personal__other">
+              <div class="personal__birth"><span>تاریخ تولد: 1368</span></div>
+              <div class="personal__marital"><span>وضعیت تأهل: مجرد</span></div>
+              <div class="personal__marital">
+                <span>شماره ملی : 2550001222</span>
+              </div>
+              <div class="personal__marital"><span>جنسیت : مرد</span></div>
+              <div class="personal__marital">
+                <span>وضعیت نظام وضیفه : پایان خدمت</span>
+              </div>
+              <div class="personal__marital">
+                <span> نحوه آشنایی : دوستان </span>
+              </div>
+            </div>
+            <div class="personal__contact">
+              <div class="personal__contact-item personal__contact-email">
+                <span><i class="fa fa-envelope"></i></span><span>ایمیل: </span
+                ><span>yaser.ebrahimi@cvresume.ir</span>
+              </div>
+              <div class="personal__contact-item personal__contact-mobile">
+                <span><i class="fa fa-mobile-alt"></i></span
+                ><span>شماره تماس: </span><span dir="ltr">09401234567</span>
+              </div>
+            </div>
+          </div>
+          <div class="section" data-section="languages" id="languages">
+            <div class="section__title">
+              <span><i class="fa-solid fa-language"></i></span
+              ><label>زبان</label>
+            </div>
+            <div class="section__body">
+              <ul class="section__list">
+                <li
+                  cid="194fa79c-7d94-d238-0be1-e04987bf0910"
+                  class="section__item"
+                >
+                  <div class="section__item-language-title">انگلیسی</div>
+                  <div class="section__item-language-level">★★★☆☆</div>
+                  <!-- <div class="section__item-language-rate">60%</div> -->
+                  <!-- <div class="section__item-language-bar">
                                     <div><span style="width:60%"></span></div>
                                 </div> -->
-                            </li>
-                            <li cid="0e0dc715-a2f5-547e-f5b8-e797b41103ab" class="section__item ">
-                                <div class="section__item-language-title">آلمانی</div>
-                                <div class="section__item-language-level">★★☆☆☆</div>
-                                <!-- <div class="section__item-language-rate">60%</div>
+                </li>
+                <li
+                  cid="0e0dc715-a2f5-547e-f5b8-e797b41103ab"
+                  class="section__item"
+                >
+                  <div class="section__item-language-title">آلمانی</div>
+                  <div class="section__item-language-level">★★☆☆☆</div>
+                  <!-- <div class="section__item-language-rate">60%</div>
                                 <div class="section__item-language-bar">
                                     <div><span style="width:60%"></span></div>
                                 </div> -->
-                            </li>
-                            <li cid="d314f82d-5854-6f6d-3a7b-3372b5b35a11" class="section__item ">
-                                <div class="section__item-language-title">فرانسوی</div>
-                                <div class="section__item-language-level">★☆☆☆☆</div>
-                                <!-- <div class="section__item-language-rate">20%</div>
+                </li>
+                <li
+                  cid="d314f82d-5854-6f6d-3a7b-3372b5b35a11"
+                  class="section__item"
+                >
+                  <div class="section__item-language-title">فرانسوی</div>
+                  <div class="section__item-language-level">★☆☆☆☆</div>
+                  <!-- <div class="section__item-language-rate">20%</div>
                                 <div class="section__item-language-bar">
                                     <div><span style="width:20%"></span></div>
                                 </div> -->
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="section " data-section="hobby" id="hobby">
-                    <div class="section__title"><span><i class="fa-solid fa-gamepad"></i></span><label>علاقه‌مندی‌ها و
-                            تفریحات</label></div>
-                    <div class="section__body">
-                        <div class="section__item-hobby">علاقه‌مند به سفر و گردشگری، مطالعه کتاب‌های نوآوری و تکنولوژی،
-                            ورزش فوتبال</div>
-                    </div>
-                </div>
+                </li>
+              </ul>
             </div>
-            <div class="col-12 col-md-9 main ">
-                <div class="section " data-section="workExperiences" id="workExperiences">
-                    <div class="section__title"><span><i class="fa-solid fa-toolbox"></i></span><label>سوابق
-                            شغلی</label></div>
-                    <div class="section__body">
-                        <div class="section__item-content section__list ">
-                            <div class="section__item-title">عنوان : <span>شرکت هواپیمایی تابان</span></div>
-                            <div class="row">
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> تعداد کارمند : <span>بین 10 الی 50</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">شهر :<span> فارس - شیراز</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> سمت شغلی: <span>برنامه نویس فرانت</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> تاریخ شروع: <span>1401/10/01</span> </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> تاریخ پایان: <span>1402/10/01</span> </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">نوع قرارداد : <span>تمام وقت</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> علت قطع همکاری: <span>کسب تجربه جدید</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section " data-section="educations" id="educations">
-                    <div class="section__title"><span><i class="fa-solid fa-graduation-cap"></i></span><label>سوابق
-                            تحصیلی</label></div>
-                    <div class="section__body">
-                        <div class="section__item-content section__list">
-                            <div class="section__item-title">رشته تحصیلی : <span> کارشناسی نرم افزار</span></div>
-                            <div class="row">
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> تاریخ اخذ : <span>1401/10/05</span> </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">نوع :<span> دولتی</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">معدل: <span>14/62</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> شهر: <span>کرمان - کرمان</span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section " data-section="educations" id="educations">
-                    <div class="section__title"><span><i class="fa-solid fa fa-cogs"></i></span><label>مهارت ها
-                        </label></div>
-                    <div class="section__body">
-                        <div class="section__item-content section__list">
-                            <div class="row">
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle d-flex flex-column "><span
-                                            class="text-center">نمونه سازی اولیه </span> <span
-                                            class="text-center star">★★★☆☆</span> </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle d-flex flex-column "><span
-                                            class="text-center">دانش ساخت و تولید</span> <span
-                                            class="text-center star">★★★☆☆</span> </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle d-flex flex-column "><span
-                                            class="text-center">دانش مقررات ایمنی</span> <span
-                                            class="text-center star">★★★☆☆</span> </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle d-flex flex-column "><span
-                                            class="text-center">SOLIDWORKS</span> <span
-                                            class="text-center star">★★★☆☆</span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section " data-section="educations" id="educations">
-                    <div class="section__title"><span><i class="fa-solid fa-link"></i></span><label>
-                            لینک ها</label></div>
-                    <div class="section__body">
-                        <div class="section__item-content section__list">
-                            <div>
-                                <div class="section__item-title"> عنوان : <span> اینستاگرام </span></div>
-                                <div class="row">
-                                    <div class="col-8">
-                                        <div class=" section__item-subtitle"> لینک :
-                                            <span>https://instagram.com/Reqruitment/CV/Detail?infoId=8</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class=" section__item-subtitle">توضیحات لینک :<span> شبکه اجتماعی</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="section__item-title"> عنوان : <span> فیس بوک </span></div>
-                                <div class="row">
-                                    <div class="col-8">
-                                        <div class=" section__item-subtitle"> لینک :
-                                            <span>https://facebook.com/Reqruitment/CV/Detail?infoId=8</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class=" section__item-subtitle">توضیحات لینک :<span> شبکه اجتماعی</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section " data-section="educations" id="educations">
-                    <div class="section__title"><span><i class="fa-solid fa-users"></i></span><label>اطلاعات
-                            نزدیکان
-                        </label></div>
-                    <div class="section__body">
-                        <div class="section__item-content section__list">
-                            <div class="row">
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">نام : <span>علی </span> </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">نام خانوادگی :<span> محمدی</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">نام لاتین: <span>Ali</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle"> نام خانوادگی لاتین: <span> Mohammadi</span>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">شغل : <span>آزاد</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">نسبت : <span>پدر</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">تحصیلات : <span>نامشخص</span></div>
-                                </div>
-                                <div class="col-6 col-md-3">
-                                    <div class=" section__item-subtitle">مقطع : <span>دیپلم</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section " data-section="educations" id="educations">
-                    <div class="section__title"><span><i class="fa-solid fa-file"></i></span><label>فایل ها
-                        </label></div>
-                    <div class="section__body">
-                        <div class="section__item-content section__list">
-                            <div class="section__item-title"> عنوان فایل : <span>کارت ملی</span></div>
-                            <div class="row mt-2 mb-5">
-                                <div class="col-6">
-                                    <img src="./assets/images/meliCart.jpg" alt=""
-                                        style="height: 7em;border-radius: 0.4em;">
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="section" data-section="hobby" id="hobby">
+            <div class="section__title">
+              <span><i class="fa-solid fa-gamepad"></i></span
+              ><label>علاقه‌مندی‌ها و تفریحات</label>
             </div>
+            <div class="section__body">
+              <div class="section__item-hobby">
+                علاقه‌مند به سفر و گردشگری، مطالعه کتاب‌های نوآوری و تکنولوژی،
+                ورزش فوتبال
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-12 col-md-9 main">
+          <div
+            class="section"
+            data-section="workExperiences"
+            id="workExperiences"
+          >
+            <div class="section__title">
+              <span><i class="fa-solid fa-toolbox"></i></span
+              ><label>سوابق شغلی</label>
+            </div>
+            <div class="section__body">
+              <div class="section__item-content section__list">
+                <div class="section__item-title">
+                  عنوان : <span>شرکت هواپیمایی تابان</span>
+                </div>
+                <div class="row mr-2">
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      تعداد کارمند : <span>بین 10 الی 50</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      شهر :<span> فارس - شیراز</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      سمت شغلی: <span>برنامه نویس فرانت</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      تاریخ شروع: <span>1401/10/01</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      تاریخ پایان: <span>1402/10/01</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      نوع قرارداد : <span>تمام وقت</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      علت قطع همکاری: <span>کسب تجربه جدید</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section" data-section="educations" id="educations">
+            <div class="section__title">
+              <span><i class="fa-solid fa-graduation-cap"></i></span
+              ><label>سوابق تحصیلی</label>
+            </div>
+            <div class="section__body">
+              <div class="section__item-content section__list">
+                <div class="section__item-title">
+                  رشته تحصیلی : <span> کارشناسی نرم افزار</span>
+                </div>
+                <div class="row">
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      تاریخ اخذ : <span>1401/10/05</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      نوع :<span> دولتی</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      معدل: <span>14/62</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      شهر: <span>کرمان - کرمان</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section" data-section="educations" id="educations">
+            <div class="section__title">
+              <span><i class="fa-solid fa fa-cogs"></i></span
+              ><label>مهارت ها </label>
+            </div>
+            <div class="section__body">
+              <div class="section__item-content section__list">
+                <div class="row">
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle d-flex flex-column">
+                      <span class="text-center">نمونه سازی اولیه </span>
+                      <span class="text-center star">★★★☆☆</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle d-flex flex-column">
+                      <span class="text-center">دانش ساخت و تولید</span>
+                      <span class="text-center star">★★★☆☆</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle d-flex flex-column">
+                      <span class="text-center">دانش مقررات ایمنی</span>
+                      <span class="text-center star">★★★☆☆</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle d-flex flex-column">
+                      <span class="text-center">SOLIDWORKS</span>
+                      <span class="text-center star">★★★☆☆</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section" data-section="educations" id="educations">
+            <div class="section__title">
+              <span><i class="fa-solid fa-link"></i></span
+              ><label> لینک ها</label>
+            </div>
+            <div class="section__body">
+              <div class="section__item-content section__list">
+                <div>
+                  <div class="section__item-title">
+                    عنوان : <span> اینستاگرام </span>
+                  </div>
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="section__item-subtitle">
+                        لینک :
+                        <span
+                          >https://instagram.com/Reqruitment/CV/Detail?infoId=8</span
+                        >
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="section__item-subtitle">
+                        توضیحات لینک :<span> شبکه اجتماعی</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="section__item-title">
+                    عنوان : <span> فیس بوک </span>
+                  </div>
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="section__item-subtitle">
+                        لینک :
+                        <span
+                          >https://facebook.com/Reqruitment/CV/Detail?infoId=8</span
+                        >
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="section__item-subtitle">
+                        توضیحات لینک :<span> شبکه اجتماعی</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section" data-section="educations" id="educations">
+            <div class="section__title">
+              <span><i class="fa-solid fa-users"></i></span
+              ><label>اطلاعات نزدیکان </label>
+            </div>
+            <div class="section__body">
+              <div class="section__item-content section__list">
+                <div class="row">
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      نام : <span>علی </span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      نام خانوادگی :<span> محمدی</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      نام لاتین: <span>Ali</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      نام خانوادگی لاتین: <span> Mohammadi</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      شغل : <span>آزاد</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      نسبت : <span>پدر</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      تحصیلات : <span>نامشخص</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="section__item-subtitle">
+                      مقطع : <span>دیپلم</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section" data-section="educations" id="educations">
+            <div class="section__title">
+              <span><i class="fa-solid fa-file"></i></span
+              ><label>فایل ها </label>
+            </div>
+            <div class="section__body">
+              <div class="section__item-content section__list">
+                <div class="section__item-title">
+                  عنوان فایل : <span>کارت ملی</span>
+                </div>
+                <div class="row mt-2 mb-5">
+                  <div class="col-6">
+                    <img
+                      src="./assets/images/meliCart.jpg"
+                      alt=""
+                      style="height: 7em; border-radius: 0.4em"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
